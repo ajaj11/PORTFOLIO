@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ajaj Ansari- Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <h1 class="logo">Ajaj Ansari</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+           <li><a href="https://drive.google.com/file/d/1N86BZv-FyRWLJ8iPpz5HW6pZLdQz0sAy/view?usp=drivesdk">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="container">
+      <div class="hero-content" id="hero-3d">
+        <h2>Passionate Software Engineer & Full Stack Developer</h2>
+        <p>
+          Dedicated to building impactful, user-centric digital solutions.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+      I’m Ajaj Ansari, currently pursuing my B.Tech in Information Technology (2024–2028) at Babu Banarasi Das Northern India Institute of Technology, Lucknow.
+
+My coursework has provided me with a solid foundation in IT principles, and I’m eager to apply my knowledge to real-world challenges. With a strong motivation to grow in the tech field, I look forward to learning, collaborating, and contributing to innovative solutions that make an impact.
+
+Always open to connecting with professionals, peers, and mentors who share the same passion for technology and innovation.
+      </p>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Performance Browser Extension</h3>
+          <p>A browser extension focused on improving web performance.</p>
+          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3>Collaborative Platform</h3>
+          <p>A platform enabling team collaboration and communication.</p>
+          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3>Creative Tools</h3>
+          <p>Tools designed to enhance creativity and productivity.</p>
+          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" method="POST" action="/api/contact">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+        <p id="form-message" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ajaj Ansari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
